@@ -1,0 +1,12 @@
+{{#each this}}
+  <div>
+    {{location}}
+  </div>
+  <div>
+    {{#each reviews}}
+    <span>{{title}}</span>  |  <span>{{date}}</span>
+    {{/each}}
+  </div>
+
+  <button id="addReview#{{@key}}">Add Review</button> 
+{{/each}}

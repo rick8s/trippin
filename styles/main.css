@@ -1,3 +1,21 @@
+body {
+  background-image: url("../sleeping-89197_1920.jpg"); }
 
+.col-md-3 {
+  background-color: seashell;
+  opacity: 0.7; }
+
+.col-md-4 {
+  background-color: seashell;
+  opacity: 0.7; }
+
+.col-md-1 {
+  background-color: transparent; }
+
+.col-md-12 {
+  margin-bottom: 15px; }
+
+.review-container {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
